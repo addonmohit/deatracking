@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "0.0.0",
+  "description": "nodejs",
+  "main": "server.js",
+  "author": {
+    "name": "mohit",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6",
+    "sql": "^0.70.0",
+	"mssql": "^3.3.0"
+  }
+}
