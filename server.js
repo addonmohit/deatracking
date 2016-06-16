@@ -177,8 +177,12 @@ io.sockets.on('connection', function(socket){
 
 });
 
-http.listen(5555, function(){
-  console.log('listening on *:5555');
+//http.listen(5555, function(){
+//  console.log('listening on *:5555');
+//});
+
+http.listen(443, function(){
+  console.log('listening on *:443');
 });
 
 
